@@ -1,0 +1,139 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Navigation Links */
+.nav {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+}
+
+/* Sidebar */
+.sidebar {
+    float: left;
+    width: 20%;
+    background-color: #ecf0f1;
+    padding: 15px;
+    margin-top: 70px; /* To avoid overlap with fixed header */
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 5px;
+    background-color: #bdc3c7;
+    border-radius: 3px;
+}
+
+.sidebar a:hover {
+    background-color: #95a5a6;
+}
+
+/* Main Content Area */
+.content {
+    margin-left: 22%;
+    padding: 20px;
+    margin-top: 70px; /* To avoid overlap with fixed header */
+    background-color: #ffffff;
+    min-height: 90vh; /* Ensure content area is taller than the viewport */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    color: #333;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #34495e;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+/* Footer */
+.footer {
+    clear: both;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* Additional Styles for Issued Books Page */
+.issued-header {
+    color: #2980b9;
+    font-weight: bold;
+}
+
+/* Contact Page Styles */
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
